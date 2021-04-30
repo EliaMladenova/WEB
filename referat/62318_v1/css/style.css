@@ -1,0 +1,261 @@
+html, body {
+  font-family: serif;
+  background-color: white;
+  margin: 50px 50px 50px 50px;
+}
+
+body {
+  background-color: rgb(199,226,252);
+  padding: 5px;
+  margin: 5px;
+}
+
+header{
+  height: 90px;
+  width:58%;
+  margin: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: relative;
+  text-align: center;
+}
+
+h1{
+  padding-bottom: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  margin: 20px 50px 20px 50px;
+}
+
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figcaption{
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.examples{
+  border-style: solid;
+  text-align: center;
+  border-radius: 3px;
+  border-color: rgb(121,150,176);
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.rule{
+  border-style: solid;
+  text-align: left;
+  border-radius: 3px;
+  border-color: rgb(176,149,104);
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+#ruleExamples1, #solution1, #ruleExamples2, #solution2{
+  display: none;
+  border-style: solid;
+  text-align: left;
+  border-radius: 3px;
+  border-color: rgb(3,120,226);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flags{
+  border-style: solid;
+  text-align: center;
+  border-radius: 3px;
+  border-color: rgb(176,163,157);
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+ul{
+  margin: 20px 70px 20px 70px;
+}
+
+li{
+  padding: 5px;
+}
+
+.examples:hover {
+  background-color: rgb(121,150,176);
+  color: white;
+}
+
+.rule:hover {
+  background-color: rgb(176,149,104);
+  color: white;
+}
+
+#ruleExamples1:hover {
+  background-color: rgb(3,120,226);
+  color: white;
+}
+
+#ruleExamples2:hover {
+  background-color: rgb(3,120,226);
+  color: white;
+}
+
+#solution1:hover {
+  background-color: rgb(3,120,226);
+  color: white;
+}
+
+#solution2:hover {
+  background-color: rgb(3,120,226);
+  color: white;
+}
+
+.problems{
+  text-align: center;
+}
+
+.flags:hover {
+  background-color: rgb(176,163,157);
+  color: white;
+}
+
+.tableFlags{
+  border-radius: 5px;
+  border: 2px black solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableFlags td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+}
+
+#firstTH{
+  width: 120px;
+}
+
+.tableExceptions{
+  border-radius: 5px;
+  border: 2px black solid;
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableExceptions td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+th{
+  border: solid;
+  padding: 5px;
+}
+
+hr{
+  border: 3px solid black;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 15.5%;
+  left: 95%;
+  max-width: 50px;
+  width: 100%;
+  font-size: 17px;
+  border-color: rgb(121,150,176);
+  background-color: rgb(121,150,176);
+  padding: .5px;
+  border-radius: 4px;
+}
+
+#topBtn:hover {
+  background-color: rgb(199,220,240);
+}
+
+.dropdwn {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdwn .dropbtn {
+  font-size: 24px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#urlDef{
+  padding-top: 70px;
+}
+
+.nav a:hover, .dropdwn:hover .dropbtn {
+  background-color: rgb(3,120,226);
+}
+
+.content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgb(3,120,226);
+  width: 135%;
+  z-index: 1;
+}
+
+.content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.content a:hover {
+  color: black;
+}
+
+.dropdwn:hover .content {
+  display: block;
+}
+
+#exampleBtn{
+  text-align: center;
+  border: solid;
+  border-radius: 3px;
+  border-color: rgb(3,120,226);
+  padding: 7px;
+  /* margin-left: 40%; */
+  background-color: rgb(3,120,226);
+  color: white;
+}
