@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <form>
+                <fieldset class="inputFields">
+                    <input id="name" type="text" placeholder="Потребителско име" onkeypress="validateUserName()">
+                    <p id="invalidName">Потребителското име е твърде късо</p>
+                    <input id="pass" type="password" placeholder="Парола" onkeypress="validatePassword()">
+                    <p id="invalidPass">Паролата трябва да е между 6 и 40 символа</p>
+                    <input id="phone" type="text" placeholder="Телефон" onkeypress="validatePhone()">
+                    <p id="invalidPhone">Невалиден телефонен номер</p>
+                    <input id="email" type="text" placeholder="Имейл адрес" onkeypress="validateEmail()">
+                    <p id="invalidEmail">Невалиден имейл адрес</p>
+                    <select name="os" class="role">
+                        <option value="Windows">Собственик</option>
+                        <option value="Linux">Наемател</option>
+                    </select>
+                    <input id="field" type="text" placeholder="Номер на апартамента">
+                    <input type="submit" value="Регистрирай ме!" id="submitBtn">
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

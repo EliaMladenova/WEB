@@ -1,0 +1,67 @@
+html{
+    background-color: rgb(222,253,241);
+}
+
+.inputFields{
+    width: 425px;
+    margin-left: 30%;
+    padding: 15px;
+    background-color: rgb(222,253,241);
+    border-color: rgb(85,141,61);
+    text-align: center;
+}
+
+input{
+    font-size: 15px;
+    width: 360px;
+    height: 35px;
+    margin: 10px;
+    border: solid;
+    border-color: rgb(187,201,186);
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 15px;
+    width: 360px;
+    margin: 10px auto;
+    border: solid;
+    border-color: rgb(176,112,109);
+    padding: 6px;
+    box-sizing: border-box;
+    display: none;
+    background-color: rgb(176,112,109);
+    color: white;
+    text-align: left;
+}
+
+.role{
+    font-size: 15px;
+    width: 360px;
+    height: 35px;
+    margin: 10px;
+    border: solid;
+    border-color: rgb(187,201,186);
+    padding-left: 10px;
+}
+
+#submitBtn{
+    width: 360px;
+    height: 35px;
+    background-color: rgb(207,231,217);
+    color: rgb(85,141,61);
+}
+
+#submitBtn:hover{
+    background-color: rgb(85,141,61);
+    color: rgb(207,231,217);
+}
+
+.role:hover{
+    border-color: rgb(85,141,61);
+}
+
+input:hover{
+    border-color: rgb(85,141,61);
+}
